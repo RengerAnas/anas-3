@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click{
+    position: absolute;
+    top: 48%;
+    left: 46%;
+}
+.click button{
+    border: none;
+    padding: 7px 8px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.pop-up{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 9px 20px #65878b;
+    padding: 20px;
+    display: none;
+    
+z-index: 9;
+}
+
+.exc-parent{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.exc{
+    font-size: 50px;
+    color: rgb(231, 185, 59);
+    width:fit-content ;
+    padding: 4px 33px;
+    border-radius: 50%;
+    border: 2px solid rgb(231, 185, 59);
+}
+.heading{
+    font-size: 30px;
+}
+.para{
+    font-size: 20px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+}
+.buttons button{
+    border: 1px solid black;
+    padding: 6px 35px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    
+}
+#b1{
+    background-color: #d1d1d1;
+}
+#b2{
+    background-color: brown;
+    color: white;
+}
